@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans';
+}
+
+nav {
+    background-color: lightcoral;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+}
+
+ul {
+    display: flex;
+}
+
+ul  li  a {
+    margin: 0 25px;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+ul li {
+    list-style: none;
+    font-size: 20px;
+}
+
+.logo a {
+    text-decoration: none;
+    margin: 0 23px;
+    font-weight: 1000;
+    color: black;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.logo a:hover {
+    color: blue;
+}
+
+ul > li > a:hover {
+    color: aliceblue;
+}
